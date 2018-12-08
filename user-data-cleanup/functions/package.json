@@ -4,10 +4,10 @@
   "dependencies": {
     "deepcopy": "^0.6.3",
     "ejs": "^2.5.7",
-    "firebase-admin": "^4.1.1",
-    "firebase-functions": "^0.5.1",
+    "firebase-admin": "^4.2.1",
+    "firebase-functions": "^0.5.9",
     "jsep": "^0.3.0",
-    "request": "^2.81.0",
+    "request": "^2.84.0",
     "request-promise": "^4.2.1",
     "strip-json-comments": "^2.0.1"
   },
