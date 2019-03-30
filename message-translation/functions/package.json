@@ -2,8 +2,14 @@
   "name": "message-translation-functions",
   "description": "Transalte Messages Firebase Functions sample",
   "dependencies": {
-    "firebase-admin": "^4.1.1",
+    "firebase-admin": "^5.4.3",
     "firebase-functions": "^0.5.1",
-    "request-promise": "^2.0.0"
-  }
+    "request-promise": "^2.0.0",
+    "snyk": "^1.143.5"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
