@@ -2,9 +2,15 @@
   "name": "generate-thumbnail-sharp-functions",
   "description": "Generate Thumbnail with Sharp Firebase Functions sample",
   "dependencies": {
-    "@google-cloud/storage": "^0.4.0",
-    "firebase-admin": "^4.1.1",
+    "@google-cloud/storage": "^1.2.0",
+    "firebase-admin": "^5.4.3",
     "firebase-functions": "^0.5.1",
-    "sharp": "^0.18.1"
-  }
+    "sharp": "^0.19.0",
+    "snyk": "^1.154.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
