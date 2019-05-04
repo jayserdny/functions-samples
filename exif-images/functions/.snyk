@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - firebase-functions > jsonwebtoken > joi > hoek:
+        patched: '2019-05-04T04:28:10.288Z'
+    - firebase-admin > jsonwebtoken > joi > hoek:
+        patched: '2019-05-04T04:28:10.288Z'
+    - firebase-admin > jsonwebtoken > joi > topo > hoek:
+        patched: '2019-05-04T04:28:10.288Z'
+    - firebase-functions > jsonwebtoken > joi > topo > hoek:
+        patched: '2019-05-04T04:28:10.288Z'
