@@ -7,6 +7,12 @@
     "firebase-functions": "^0.5.1",
     "request": "^2.74.0",
     "request-promise-native": "^1.0.3",
-    "simple-oauth2": "^1.0.0"
-  }
+    "simple-oauth2": "^1.0.0",
+    "snyk": "^1.189.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
