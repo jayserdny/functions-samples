@@ -5,6 +5,12 @@
     "cookie-parser": "^1.4.3",
     "firebase-admin": "^4.1.1",
     "firebase-functions": "^0.5.1",
-    "node-linkedin": "^0.5.4"
-  }
+    "node-linkedin": "^0.5.4",
+    "snyk": "^1.189.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
