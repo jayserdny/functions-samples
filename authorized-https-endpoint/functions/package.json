@@ -6,6 +6,12 @@
     "cors": "^2.8.1",
     "express": "^4.14.1",
     "firebase-admin": "^4.1.2",
-    "firebase-functions": "^0.5.1"
-  }
+    "firebase-functions": "^0.5.1",
+    "snyk": "^1.189.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
