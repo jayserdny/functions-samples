@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - firebase-functions > lodash:
+        patched: '2019-07-04T08:26:12.409Z'
+    - '@google-cloud/vision > async > lodash':
+        patched: '2019-07-04T08:26:12.409Z'
+    - '@google-cloud/vision > google-gax > grpc > lodash':
+        patched: '2019-07-04T08:26:12.409Z'
+    - '@google-cloud/vision > @google-cloud/common > split-array-stream > async > lodash':
+        patched: '2019-07-04T08:26:12.409Z'
+    - '@google-cloud/storage > gcs-resumable-upload > google-auto-auth > async > lodash':
+        patched: '2019-07-04T08:26:12.409Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > request > form-data > async > lodash':
+        patched: '2019-07-04T08:26:12.409Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > request > form-data > async > lodash':
+        patched: '2019-07-04T08:26:12.409Z'
