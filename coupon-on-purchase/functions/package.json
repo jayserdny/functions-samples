@@ -3,6 +3,12 @@
   "description": "Send a coupon via FCM to your users who have experienced a crash.",
   "dependencies": {
     "firebase-admin": "^4.1.2",
-    "firebase-functions": "^0.5.1"
-  }
+    "firebase-functions": "^0.5.1",
+    "snyk": "^1.190.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
