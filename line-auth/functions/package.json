@@ -5,7 +5,13 @@
     "firebase-admin": "^4.1.2",
     "firebase-functions": "^0.5",
     "request-promise": "^4.1.1",
-    "request": "^2.34"
+    "request": "^2.34",
+    "snyk": "^1.189.0"
   },
-  "private": true
+  "private": true,
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
