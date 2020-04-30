@@ -5,6 +5,12 @@
     "@google-cloud/logging": "^0.7.1",
     "firebase-admin": "^4.0.5",
     "firebase-functions": "^0.5.1",
-    "stripe": "^4.15.0"
-  }
+    "stripe": "^4.15.0",
+    "snyk": "^1.316.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
