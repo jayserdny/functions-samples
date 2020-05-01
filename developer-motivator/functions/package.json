@@ -3,6 +3,12 @@
   "description": "A simple developer motivator using Cloud Function and firebase analytics",
   "dependencies": {
     "firebase-admin": "^4.1.2",
-    "firebase-functions": "^0.5.1"
-  }
+    "firebase-functions": "^0.5.1",
+    "snyk": "^1.316.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
