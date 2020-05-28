@@ -4,7 +4,7 @@
   "dependencies": {
     "@google-cloud/storage": "^0.4.0",
     "firebase-admin": "^4.1.1",
-    "firebase-functions": "^0.5.1",
+    "firebase-functions": "^3.6.2",
     "sharp": "^0.18.1"
   }
 }
