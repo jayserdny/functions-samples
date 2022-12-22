@@ -7,7 +7,7 @@
     "build": "npm run buildClient && npm run buildServer"
   },
   "dependencies": {
-    "firebase": "3.9.0",
+    "firebase": "4.5.1",
     "lodash": "4.17.4",
     "react": "15.5.4",
     "react-dom": "15.5.4",
