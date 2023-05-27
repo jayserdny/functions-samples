@@ -2,8 +2,9 @@
   "name": "functions",
   "description": "Cloud Functions for Firebase",
   "dependencies": {
-    "firebase-admin": "~4.2.1",
-    "firebase-functions": "^0.5.7"
+    "firebase-admin": "~5.4.3",
+    "firebase-functions": "^0.5.7",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "typescript": "^2.3.2"
@@ -11,8 +12,11 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
-    "deploy": "tsc && firebase deploy --only functions"
+    "deploy": "tsc && firebase deploy --only functions",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "main": "build/index.js",
-  "private": true
+  "private": true,
+  "snyk": true
 }
