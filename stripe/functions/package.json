@@ -2,8 +2,8 @@
   "name": "stripe-functions",
   "description": "Stripe Firebase Functions",
   "dependencies": {
-    "@google-cloud/logging": "^0.7.1",
-    "firebase-admin": "^4.0.5",
+    "@google-cloud/logging": "^5.0.0",
+    "firebase-admin": "^5.8.0",
     "firebase-functions": "^0.5.1",
     "stripe": "^4.15.0"
   }
